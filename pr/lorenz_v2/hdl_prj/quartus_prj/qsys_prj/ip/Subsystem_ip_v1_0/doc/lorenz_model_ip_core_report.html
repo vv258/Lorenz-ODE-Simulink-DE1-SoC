@@ -1,0 +1,402 @@
+<html>
+<head>
+<title>IP Core Generation Report for lorenz_model</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<style type="text/css">
+table {
+	width: 100%;
+	border: 1px solid black;
+}
+
+div {
+	line-heigh: 90%;
+}
+
+h2.title {
+	color: #000066;
+	font-weight: bold;
+}
+
+h3.sectionHeading {
+	color: #000066;
+	font-weight: bold;
+}
+
+td.distinctCellColor {
+	background-color: #eeeeff;
+}
+
+td.summaryTableSndColOddRow {
+	background-color: #eeeeff;
+	text-align: right;
+}
+
+td.summaryTableSndColEvenRow {
+	text-align: right;
+}
+
+thead.reportTableHeader {
+	background-color: #eeeeee;
+	font-weight: bold;
+}
+
+</style>
+
+</head>
+<body>
+<h2 class="title">IP Core Generation Report for lorenz_model</h2>
+<div>
+<h3 class="sectionHeading">Summary</h3>
+<table>
+<tbody>
+<tr>
+<td class="distinctCellColor">IP core name
+</td>
+<td class="summaryTableSndColOddRow">Subsystem_ip
+</td>
+</tr>
+<tr>
+<td>IP core version
+</td>
+<td class="summaryTableSndColEvenRow">1.0
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">IP core folder
+</td>
+<td class="summaryTableSndColOddRow"><a href="matlab:uiopen('hdl_prj\ipcore\Subsystem_ip_v1_0\*.*')">hdl_prj\ipcore\Subsystem_ip_v1_0</a>
+</td>
+</tr>
+<tr>
+<td>Target platform
+</td>
+<td class="summaryTableSndColEvenRow">Terasic DE1-SoC development Kit
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">Target tool
+</td>
+<td class="summaryTableSndColOddRow">Altera QUARTUS II
+</td>
+</tr>
+<tr>
+<td>Target language
+</td>
+<td class="summaryTableSndColEvenRow">Verilog
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">Reference Design
+</td>
+<td class="summaryTableSndColOddRow">Demo system
+</td>
+</tr>
+<tr>
+<td>Model
+</td>
+<td class="summaryTableSndColEvenRow"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('lorenz_model')">lorenz_model</a>
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">Model version
+</td>
+<td class="summaryTableSndColOddRow">1.14
+</td>
+</tr>
+<tr>
+<td>HDL Coder version
+</td>
+<td class="summaryTableSndColEvenRow">3.12
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">IP core generated on
+</td>
+<td class="summaryTableSndColOddRow">03-May-2019 14:53:03
+</td>
+</tr>
+<tr>
+<td>IP core generated for
+</td>
+<td class="summaryTableSndColEvenRow"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('lorenz_model:185')">Subsystem</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<h3 class="sectionHeading">Target Interface Configuration</h3>
+You chose the following target interface configuration for 
+<a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('lorenz_model')">lorenz_model</a>
+:
+<br/><br/>
+Processor/FPGA synchronization mode: 
+<b>Free running</b>
+<br/><br/>
+Target platform interface table:
+<br/>
+<table>
+<thead class="reportTableHeader">
+<tr>
+<td>Port Name
+</td>
+<td>Port Type
+</td>
+<td>Data Type
+</td>
+<td>Target Platform Interfaces
+</td>
+<td>Bit Range / Address / FPGA Pin
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('lorenz_model:188')">CLK</a>
+</td>
+<td>Inport
+</td>
+<td>boolean
+</td>
+<td>AXI4
+</td>
+<td>x"10C"
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('lorenz_model:208')">RST</a>
+</td>
+<td class="distinctCellColor">Inport
+</td>
+<td class="distinctCellColor">boolean
+</td>
+<td class="distinctCellColor">AXI4
+</td>
+<td class="distinctCellColor">x"110"
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('lorenz_model:205')">x</a>
+</td>
+<td>Outport
+</td>
+<td>sfix27_En20
+</td>
+<td>AXI4
+</td>
+<td>x"108"
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor"><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('lorenz_model:206')">y</a>
+</td>
+<td class="distinctCellColor">Outport
+</td>
+<td class="distinctCellColor">sfix27_En20
+</td>
+<td class="distinctCellColor">AXI4
+</td>
+<td class="distinctCellColor">x"104"
+</td>
+</tr>
+<tr>
+<td><a class="code2model" id="code2model" href="matlab:Simulink.ID.hilite('lorenz_model:207')">z</a>
+</td>
+<td>Outport
+</td>
+<td>sfix27_En20
+</td>
+<td>AXI4
+</td>
+<td>x"100"
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div>
+<h3 class="sectionHeading">Register Address Mapping</h3>
+The following AXI4 bus accessible registers were generated for this IP core:
+<br/><br/>
+<table>
+<thead class="reportTableHeader">
+<tr>
+<td>Register Name
+</td>
+<td>Address Offset
+</td>
+<td>Description
+</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IPCore_Reset
+</td>
+<td>0x0
+</td>
+<td>write 0x1 to bit 0 to reset IP core
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">IPCore_Enable
+</td>
+<td class="distinctCellColor">0x4
+</td>
+<td class="distinctCellColor">enabled (by default) when bit 0 is 0x1
+</td>
+</tr>
+<tr>
+<td>IPCore_Timestamp
+</td>
+<td>0x8
+</td>
+<td>contains unique IP timestamp (yymmddHHMM): 1905031453
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">z_Data
+</td>
+<td class="distinctCellColor">0x100
+</td>
+<td class="distinctCellColor">data register for Outport z
+</td>
+</tr>
+<tr>
+<td>y_Data
+</td>
+<td>0x104
+</td>
+<td>data register for Outport y
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">x_Data
+</td>
+<td class="distinctCellColor">0x108
+</td>
+<td class="distinctCellColor">data register for Outport x
+</td>
+</tr>
+<tr>
+<td>CLK_Data
+</td>
+<td>0x10C
+</td>
+<td>data register for Inport CLK
+</td>
+</tr>
+<tr>
+<td class="distinctCellColor">RST_Data
+</td>
+<td class="distinctCellColor">0x110
+</td>
+<td class="distinctCellColor">data register for Inport RST
+</td>
+</tr>
+</tbody>
+</table>
+<br/>
+The register address mapping is also in the following C header file for you to use when programming the processor:
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\Subsystem_ip_v1_0\include\Subsystem_ip_addr.h')">include\Subsystem_ip_addr.h</a>
+<br/>
+The IP core name is appended to the register names to avoid name conflicts.
+</div>
+<div>
+<h3 class="sectionHeading">IP Core User Guide</h3>
+<b>Theory of Operation</b>
+<br/><br/>
+This IP core is designed to be connected to an embedded processor with an 
+<b>AXI4 interface. </b>
+The processor acts as master, and the IP core acts as slave. By accessing the generated registers via the AXI4 interface, the processor can control the IP core, and read and write data from and to the IP core. 
+<br/><br/>
+For example, to reset the IP core, write 0x1 to the bit 0 of IPCore_Reset register. To enable or disable the IP core, write 0x1 or 0x0 to the IPCore_Enable register. To access the data ports of the MATLAB/Simulink algorithm, read or write to the associated data registers.
+<br/><br/>
+<img src="doc_arch_axi4.jpg"/>
+<br/><br/>
+<b>Processor/FPGA Synchronization</b>
+<br/><br/>
+The 
+<b>Free running </b>
+mode means there is no explicit synchronization between embedded processor software execution (SW) and the IP core (HW). SW and HW runs independently. The data written from the processor to IP core takes effect immediately, and the data read from the IP core is the latest data available on the IP core output ports. 
+<br/><br/>
+<img src="free_running.jpg"/>
+<br/><br/>
+<b>Altera Qsys Environment Integration</b>
+<br/><br/>
+This IP Core is generated for the Altera Qsys environment. The following steps are an example showing how to integrate the generated IP core into Altera Qsys environment:
+<br/><br/>
+1. Copy the IP core folder into the "ip" folder in your Altera Qsys project folder. If there is no folder named "ip", create one. This step adds the IP core into the Qsys project user library.
+<br/>
+2. In the Qsys project, find the IP core in the user library and add the IP core to the design.
+<br/>
+3. Connect the S_AXI port of the IP core to the embedded processor's AXI master port.
+<br/>
+4. Connect the clock and reset ports of the IP core to the global clock and reset signals.
+<br/>
+5. Assign a base address for the IP core.
+<br/>
+6. Connect external ports and add FPGA pin assignment constraints.
+<br/>
+7. Generate FPGA bitstream and download the bitstream to target device.
+<br/><br/>
+If you are targeting Intel SoC hardware supported by HDL Coder Support Package for Intel SoC Devices, you can select the board you are using in the Target platform option in the Set Target > Set Target Device and Synthesis Tool task. You can then use Embedded System Integration tasks in HDL Workflow Advisor to help you integrate the generated IP core into Altera Qsys environment.
+</div>
+<div>
+<h3 class="sectionHeading">IP Core File List</h3>
+The IP core folder is located at:
+<br/>
+<a href="matlab:uiopen('hdl_prj\ipcore\Subsystem_ip_v1_0\*.*')">hdl_prj\ipcore\Subsystem_ip_v1_0</a>
+<br/>
+Following files are generated under this folder:
+<br/><br/>
+<b>IP core definition files</b>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\Subsystem_ip_v1_0\Subsystem_ip_hw.tcl')">Subsystem_ip_hw.tcl</a>
+<br/><br/>
+<b>IP core report</b>
+<br/>
+<a href="matlab:web('hdl_prj\ipcore\Subsystem_ip_v1_0\doc\lorenz_model_ip_core_report.html')">doc\lorenz_model_ip_core_report.html</a>
+<br/><br/>
+<b>IP core HDL source files</b>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\Subsystem_ip_v1_0\hdl\Subsystem_ip_src_Triggered_Subsystem.v')">hdl\Subsystem_ip_src_Triggered_Subsystem.v</a>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\Subsystem_ip_v1_0\hdl\Subsystem_ip_src_Triggered_Subsystem3.v')">hdl\Subsystem_ip_src_Triggered_Subsystem3.v</a>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\Subsystem_ip_v1_0\hdl\Subsystem_ip_src_Subsystem.v')">hdl\Subsystem_ip_src_Subsystem.v</a>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\Subsystem_ip_v1_0\hdl\Subsystem_ip_dut.v')">hdl\Subsystem_ip_dut.v</a>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\Subsystem_ip_v1_0\hdl\Subsystem_ip_SimpleDualPortRAM_generic.v')">hdl\Subsystem_ip_SimpleDualPortRAM_generic.v</a>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\Subsystem_ip_v1_0\hdl\Subsystem_ip_rdfifo_data_classic.v')">hdl\Subsystem_ip_rdfifo_data_classic.v</a>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\Subsystem_ip_v1_0\hdl\Subsystem_ip_rdfifo_data.v')">hdl\Subsystem_ip_rdfifo_data.v</a>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\Subsystem_ip_v1_0\hdl\Subsystem_ip_SimpleDualPortRAM_singlebit.v')">hdl\Subsystem_ip_SimpleDualPortRAM_singlebit.v</a>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\Subsystem_ip_v1_0\hdl\Subsystem_ip_rdfifo_last_classic.v')">hdl\Subsystem_ip_rdfifo_last_classic.v</a>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\Subsystem_ip_v1_0\hdl\Subsystem_ip_rdfifo_last.v')">hdl\Subsystem_ip_rdfifo_last.v</a>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\Subsystem_ip_v1_0\hdl\Subsystem_ip_rdfifo_rid_classic.v')">hdl\Subsystem_ip_rdfifo_rid_classic.v</a>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\Subsystem_ip_v1_0\hdl\Subsystem_ip_rdfifo_rid.v')">hdl\Subsystem_ip_rdfifo_rid.v</a>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\Subsystem_ip_v1_0\hdl\Subsystem_ip_axi4_module.v')">hdl\Subsystem_ip_axi4_module.v</a>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\Subsystem_ip_v1_0\hdl\Subsystem_ip_addr_decoder.v')">hdl\Subsystem_ip_addr_decoder.v</a>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\Subsystem_ip_v1_0\hdl\Subsystem_ip_axi4.v')">hdl\Subsystem_ip_axi4.v</a>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\Subsystem_ip_v1_0\hdl\Subsystem_ip.v')">hdl\Subsystem_ip.v</a>
+<br/>
+<br/>
+<b>IP core C header file</b>
+<br/>
+<a href="matlab:edit('hdl_prj\ipcore\Subsystem_ip_v1_0\include\Subsystem_ip_addr.h')">include\Subsystem_ip_addr.h</a>
+</div>
+</body>
+</html>

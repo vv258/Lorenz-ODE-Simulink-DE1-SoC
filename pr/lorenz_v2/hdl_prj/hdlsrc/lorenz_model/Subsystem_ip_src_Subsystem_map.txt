@@ -1,0 +1,3 @@
+lorenz_model/Subsystem/Triggered Subsystem3/Triggered Subsystem --> Subsystem_ip_src_Triggered_Subsystem
+lorenz_model/Subsystem/Triggered Subsystem3 --> Subsystem_ip_src_Triggered_Subsystem3
+lorenz_model/Subsystem --> Subsystem_ip_src_Subsystem

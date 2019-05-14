@@ -1,0 +1,25 @@
+# Terasic DE1-SoC development Kit
+
+
+# FPGA Pin Location Constrain
+
+set_location_assignment PIN_V16 -to GPLED[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPLED[0]
+set_location_assignment PIN_W16 -to GPLED[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPLED[1]
+set_location_assignment PIN_V17 -to GPLED[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPLED[2]
+set_location_assignment PIN_V18 -to GPLED[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPLED[3]
+set_location_assignment PIN_W17 -to GPLED[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPLED[4]
+set_location_assignment PIN_W19 -to GPLED[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPLED[5]
+set_location_assignment PIN_Y19 -to GPLED[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPLED[6]
+set_location_assignment PIN_W20 -to GPLED[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPLED[7]
+set_location_assignment PIN_W21 -to GPLED[8]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPLED[8]
+set_location_assignment PIN_Y21 -to GPLED[9]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GPLED[9]

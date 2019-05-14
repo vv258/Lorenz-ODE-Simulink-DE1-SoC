@@ -1,0 +1,5 @@
+rtiostream_tcpip_armcortexa.c.o: \
+ C:/ProgramData/MATLAB/SupportPackages/R2018a/toolbox/target/supportpackages/arm_cortex_a/src/rtiostream_tcpip_armcortexa.c \
+ C:/ProgramData/MATLAB/SupportPackages/R2018a/toolbox/target/supportpackages/arm_cortex_a/include/rtiostream_armcortexa.h
+
+C:/ProgramData/MATLAB/SupportPackages/R2018a/toolbox/target/supportpackages/arm_cortex_a/include/rtiostream_armcortexa.h:

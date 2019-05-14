@@ -1,0 +1,5 @@
+axi4Interface.c.o: \
+ C:/ProgramData/MATLAB/SupportPackages/R2018a/toolbox/target/supportpackages/alterasoc/src/axi4Interface.c \
+ C:/ProgramData/MATLAB/SupportPackages/R2018a/toolbox/target/supportpackages/alterasoc/include/axiInterface.h
+
+C:/ProgramData/MATLAB/SupportPackages/R2018a/toolbox/target/supportpackages/alterasoc/include/axiInterface.h:

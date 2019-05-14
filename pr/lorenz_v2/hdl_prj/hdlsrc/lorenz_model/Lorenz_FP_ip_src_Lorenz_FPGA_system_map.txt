@@ -1,0 +1,4 @@
+lorenz_model/Lorenz_FPGA_system/Subsystem2 --> Lorenz_FP_ip_src_Subsystem2
+lorenz_model/Lorenz_FPGA_system/Subsystem1 --> Lorenz_FP_ip_src_Subsystem1
+lorenz_model/Lorenz_FPGA_system/Subsystem --> Lorenz_FP_ip_src_Subsystem
+lorenz_model/Lorenz_FPGA_system --> Lorenz_FP_ip_src_Lorenz_FPGA_system

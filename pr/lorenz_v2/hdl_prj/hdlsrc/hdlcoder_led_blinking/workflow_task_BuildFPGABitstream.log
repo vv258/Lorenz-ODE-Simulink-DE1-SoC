@@ -1,0 +1,11 @@
+Task "Build FPGA Bitstream" successful.
+Generated logfile: 
+
+Running embedded system build outside MATLAB.
+Please check external shell for system build progress.
+
+The generated bitstream files are located at:
+hdl_prj\quartus_prj\system.sof
+hdl_prj\quartus_prj\system.rbf
+
+

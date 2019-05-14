@@ -1,0 +1,17 @@
+Lorenz_FPGA_system.c.o: Lorenz_FPGA_system.c Lorenz_FPGA_system.h \
+ rtwtypes.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2018a/toolbox/target/supportpackages/alterasoc/include/axi_lct.h \
+ C:/ProgramData/MATLAB/SupportPackages/R2018a/toolbox/target/supportpackages/alterasoc/include/axiInterface.h \
+ Lorenz_FPGA_system_types.h Lorenz_FPGA_system_private.h
+
+Lorenz_FPGA_system.h:
+
+rtwtypes.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2018a/toolbox/target/supportpackages/alterasoc/include/axi_lct.h:
+
+C:/ProgramData/MATLAB/SupportPackages/R2018a/toolbox/target/supportpackages/alterasoc/include/axiInterface.h:
+
+Lorenz_FPGA_system_types.h:
+
+Lorenz_FPGA_system_private.h:
